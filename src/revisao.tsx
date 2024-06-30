@@ -3,9 +3,9 @@ import { ChangeEvent, useState } from "react";
 function Revisao(): JSX.Element {
     const [a, setA] = useState(0)
     const [b, setB] = useState(0)
-    function soma(a: number, b: number): number {
+    /*function soma(a: number, b: number): number {
         return a + b
-    }
+    }*/
     function trataInput1(e: ChangeEvent<HTMLInputElement>) {
         setA(Number(e.target.value))
     }

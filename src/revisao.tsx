@@ -38,6 +38,7 @@ function Revisao(): JSX.Element {
     // EX
     // somaNumeros(1,3) -> 6        1+2+3
     // A soma de 1 até o número 3 é: 6
+    
     function somaNumeros(a1: number, b1: number): string { //number
         let soma: number = 0
         for (let i = a1; i <= b1; i++) {
